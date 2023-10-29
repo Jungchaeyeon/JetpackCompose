@@ -1,1 +1,9 @@
 JetpackCompose 정리
+
+1. Legacy View System과 다르게 Activity가 ComponentActivity()를 상속받고 있다.
+
+2. onCreate() 내 setContent{} 에서는 Theme을 정의하는 항목이 있고,
+   해당 Theme 내에 Surface와 Greeting 이 존재한다.
+
+3. Greeting 부터 @Composable 함수라고 할 수 있다.
+   Composable 함수는 Compose
